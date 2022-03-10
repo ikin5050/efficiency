@@ -1,0 +1,3 @@
+/detector/distance {dist}
+/run/reinitializeGeometry
+/run/beamOn 100000

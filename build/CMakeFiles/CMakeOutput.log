@@ -1,0 +1,523 @@
+The system is: Linux - 3.10.0-1160.59.1.el7.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/paulw/efficiency/build/CMakeFiles/3.17.5/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/paulw/efficiency/build/CMakeFiles/3.17.5/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/paulw/efficiency/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_66248/fast && /bin/gmake  -f CMakeFiles/cmTC_66248.dir/build.make CMakeFiles/cmTC_66248.dir/build
+gmake[1]: Entering directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66248.dir/testCCompiler.c.o
+/usr/local/bin/gcc    -o CMakeFiles/cmTC_66248.dir/testCCompiler.c.o   -c /home/paulw/efficiency/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_66248
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_66248.dir/link.txt --verbose=1
+/usr/local/bin/gcc      -rdynamic CMakeFiles/cmTC_66248.dir/testCCompiler.c.o  -o cmTC_66248 
+gmake[1]: Leaving directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/paulw/efficiency/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_e1c78/fast && /bin/gmake  -f CMakeFiles/cmTC_e1c78.dir/build.make CMakeFiles/cmTC_e1c78.dir/build
+gmake[1]: Entering directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/gcc   -v -o CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake3/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-9.2.0/configure --enable-languages=c,c++ --disable-multilib
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/cc1 -quiet -v -iprefix /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/ /usr/share/cmake3/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccXJLB4C.s
+GNU C17 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.2.0, GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"
+ignoring duplicate directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"
+ignoring nonexistent directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include
+ /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.2.0, GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 88df1f850363d785d2a4367f19a5984d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o /tmp/ccXJLB4C.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/mnt/share/local_CentOS7/bin/../libexec/gcc/
+LIBRARY_PATH=/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/mnt/share/local_CentOS7/bin/../lib/gcc/:/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_e1c78
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_e1c78.dir/link.txt --verbose=1
+/usr/local/bin/gcc     -v -rdynamic CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o  -o cmTC_e1c78 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/gcc
+COLLECT_LTO_WRAPPER=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-9.2.0/configure --enable-languages=c,c++ --disable-multilib
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COMPILER_PATH=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/mnt/share/local_CentOS7/bin/../libexec/gcc/
+LIBRARY_PATH=/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/mnt/share/local_CentOS7/bin/../lib/gcc/:/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e1c78' '-mtune=generic' '-march=x86-64'
+ /mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 -plugin /mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4UQADH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e1c78 /lib/../lib64/crt1.o /lib/../lib64/crti.o /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/mnt/share/local_CentOS7/bin/../lib/gcc -L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e1c78' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include]
+    add: [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include] ==> [/mnt/share/local_CentOS7/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include]
+  collapse include dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed] ==> [/mnt/share/local_CentOS7/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/mnt/share/local_CentOS7/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include;/mnt/share/local_CentOS7/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed;/usr/local/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/paulw/efficiency/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/bin/gmake cmTC_e1c78/fast && /bin/gmake  -f CMakeFiles/cmTC_e1c78.dir/build.make CMakeFiles/cmTC_e1c78.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/bin/gcc   -v -o CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake3/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-9.2.0/configure --enable-languages=c c++ --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/cc1 -quiet -v -iprefix /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/ /usr/share/cmake3/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccXJLB4C.s]
+  ignore line: [GNU C17 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"]
+  ignore line: [ignoring duplicate directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include]
+  ignore line: [ /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 88df1f850363d785d2a4367f19a5984d]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o /tmp/ccXJLB4C.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/mnt/share/local_CentOS7/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/mnt/share/local_CentOS7/bin/../lib/gcc/:/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_e1c78]
+  ignore line: [/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_e1c78.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/gcc     -v -rdynamic CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o  -o cmTC_e1c78 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-9.2.0/configure --enable-languages=c c++ --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/mnt/share/local_CentOS7/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/mnt/share/local_CentOS7/bin/../lib/gcc/:/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_e1c78' '-mtune=generic' '-march=x86-64']
+  link line: [ /mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 -plugin /mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4UQADH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_e1c78 /lib/../lib64/crt1.o /lib/../lib64/crti.o /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/mnt/share/local_CentOS7/bin/../lib/gcc -L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc4UQADH.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_e1c78] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o] ==> ignore
+    arg [-L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0] ==> dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0]
+    arg [-L/mnt/share/local_CentOS7/bin/../lib/gcc] ==> dir [/mnt/share/local_CentOS7/bin/../lib/gcc]
+    arg [-L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64] ==> dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..] ==> dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..]
+    arg [CMakeFiles/cmTC_e1c78.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0] ==> [/mnt/share/local_CentOS7/lib/gcc/x86_64-pc-linux-gnu/9.2.0]
+  collapse library dir [/mnt/share/local_CentOS7/bin/../lib/gcc] ==> [/mnt/share/local_CentOS7/lib/gcc]
+  collapse library dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64] ==> [/mnt/share/local_CentOS7/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..] ==> [/mnt/share/local_CentOS7/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/mnt/share/local_CentOS7/lib/gcc/x86_64-pc-linux-gnu/9.2.0;/mnt/share/local_CentOS7/lib/gcc;/mnt/share/local_CentOS7/lib64;/lib64;/usr/lib64;/mnt/share/local_CentOS7/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/paulw/efficiency/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_77930/fast && /bin/gmake  -f CMakeFiles/cmTC_77930.dir/build.make CMakeFiles/cmTC_77930.dir/build
+gmake[1]: Entering directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_77930.dir/testCXXCompiler.cxx.o
+/usr/local/bin/g++     -o CMakeFiles/cmTC_77930.dir/testCXXCompiler.cxx.o -c /home/paulw/efficiency/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_77930
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_77930.dir/link.txt --verbose=1
+/usr/local/bin/g++       -rdynamic CMakeFiles/cmTC_77930.dir/testCXXCompiler.cxx.o  -o cmTC_77930 
+gmake[1]: Leaving directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/paulw/efficiency/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_1837c/fast && /bin/gmake  -f CMakeFiles/cmTC_1837c.dir/build.make CMakeFiles/cmTC_1837c.dir/build
+gmake[1]: Entering directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/g++    -v -o CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-9.2.0/configure --enable-languages=c,c++ --disable-multilib
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/cc1plus -quiet -v -iprefix /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/ -D_GNU_SOURCE /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cczIBfS7.s
+GNU C++14 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.2.0, GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"
+ignoring duplicate directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"
+ignoring duplicate directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"
+ignoring duplicate directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"
+ignoring duplicate directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"
+ignoring nonexistent directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0
+ /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu
+ /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward
+ /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include
+ /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed
+ /usr/local/include
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.2.0, GMP version 6.0.0, MPFR version 3.1.1, MPC version 1.0.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3f72dd414d381ca540bc477a8e34e950
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o /tmp/cczIBfS7.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/mnt/share/local_CentOS7/bin/../libexec/gcc/
+LIBRARY_PATH=/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/mnt/share/local_CentOS7/bin/../lib/gcc/:/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_1837c
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_1837c.dir/link.txt --verbose=1
+/usr/local/bin/g++      -v -rdynamic CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1837c 
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/g++
+COLLECT_LTO_WRAPPER=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../gcc-9.2.0/configure --enable-languages=c,c++ --disable-multilib
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COMPILER_PATH=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/mnt/share/local_CentOS7/bin/../libexec/gcc/
+LIBRARY_PATH=/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/mnt/share/local_CentOS7/bin/../lib/gcc/:/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1837c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 -plugin /mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbCZFj9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1837c /lib/../lib64/crt1.o /lib/../lib64/crti.o /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/mnt/share/local_CentOS7/bin/../lib/gcc -L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1837c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0]
+    add: [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu]
+    add: [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward]
+    add: [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include]
+    add: [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed]
+    add: [/usr/local/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0] ==> [/mnt/share/local_CentOS7/include/c++/9.2.0]
+  collapse include dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu] ==> [/mnt/share/local_CentOS7/include/c++/9.2.0/x86_64-pc-linux-gnu]
+  collapse include dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward] ==> [/mnt/share/local_CentOS7/include/c++/9.2.0/backward]
+  collapse include dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include] ==> [/mnt/share/local_CentOS7/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include]
+  collapse include dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed] ==> [/mnt/share/local_CentOS7/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/mnt/share/local_CentOS7/include/c++/9.2.0;/mnt/share/local_CentOS7/include/c++/9.2.0/x86_64-pc-linux-gnu;/mnt/share/local_CentOS7/include/c++/9.2.0/backward;/mnt/share/local_CentOS7/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include;/mnt/share/local_CentOS7/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed;/usr/local/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/paulw/efficiency/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/bin/gmake cmTC_1837c/fast && /bin/gmake  -f CMakeFiles/cmTC_1837c.dir/build.make CMakeFiles/cmTC_1837c.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/g++    -v -o CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/g++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-9.2.0/configure --enable-languages=c c++ --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/cc1plus -quiet -v -iprefix /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/ -D_GNU_SOURCE /usr/share/cmake3/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cczIBfS7.s]
+  ignore line: [GNU C++14 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"]
+  ignore line: [ignoring duplicate directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"]
+  ignore line: [ignoring duplicate directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"]
+  ignore line: [ignoring duplicate directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/mnt/share/local_CentOS7/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0]
+  ignore line: [ /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu]
+  ignore line: [ /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward]
+  ignore line: [ /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include]
+  ignore line: [ /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.0.0  MPFR version 3.1.1  MPC version 1.0.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3f72dd414d381ca540bc477a8e34e950]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o /tmp/cczIBfS7.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/mnt/share/local_CentOS7/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/mnt/share/local_CentOS7/bin/../lib/gcc/:/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_1837c]
+  ignore line: [/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_1837c.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/g++      -v -rdynamic CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1837c ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/local/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../gcc-9.2.0/configure --enable-languages=c c++ --disable-multilib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/mnt/share/local_CentOS7/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/mnt/share/local_CentOS7/bin/../lib/gcc/:/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1837c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 -plugin /mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so -plugin-opt=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbCZFj9.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1837c /lib/../lib64/crt1.o /lib/../lib64/crti.o /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/mnt/share/local_CentOS7/bin/../lib/gcc -L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/mnt/share/local_CentOS7/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccbCZFj9.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1837c] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o] ==> ignore
+    arg [-L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0] ==> dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0]
+    arg [-L/mnt/share/local_CentOS7/bin/../lib/gcc] ==> dir [/mnt/share/local_CentOS7/bin/../lib/gcc]
+    arg [-L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64] ==> dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..] ==> dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..]
+    arg [CMakeFiles/cmTC_1837c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0] ==> [/mnt/share/local_CentOS7/lib/gcc/x86_64-pc-linux-gnu/9.2.0]
+  collapse library dir [/mnt/share/local_CentOS7/bin/../lib/gcc] ==> [/mnt/share/local_CentOS7/lib/gcc]
+  collapse library dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64] ==> [/mnt/share/local_CentOS7/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/mnt/share/local_CentOS7/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..] ==> [/mnt/share/local_CentOS7/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/mnt/share/local_CentOS7/lib/gcc/x86_64-pc-linux-gnu/9.2.0;/mnt/share/local_CentOS7/lib/gcc;/mnt/share/local_CentOS7/lib64;/lib64;/usr/lib64;/mnt/share/local_CentOS7/lib]
+  implicit fwks: []
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/paulw/efficiency/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_00322/fast && /bin/gmake  -f CMakeFiles/cmTC_00322.dir/build.make CMakeFiles/cmTC_00322.dir/build
+gmake[1]: Entering directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00322.dir/CheckIncludeFile.c.o
+/usr/local/bin/gcc    -o CMakeFiles/cmTC_00322.dir/CheckIncludeFile.c.o   -c /home/paulw/efficiency/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_00322
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_00322.dir/link.txt --verbose=1
+/usr/local/bin/gcc      CMakeFiles/cmTC_00322.dir/CheckIncludeFile.c.o  -o cmTC_00322 
+gmake[1]: Leaving directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /home/paulw/efficiency/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_56bc7/fast && /bin/gmake  -f CMakeFiles/cmTC_56bc7.dir/build.make CMakeFiles/cmTC_56bc7.dir/build
+gmake[1]: Entering directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56bc7.dir/CheckFunctionExists.c.o
+/usr/local/bin/gcc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_56bc7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_56bc7
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_56bc7.dir/link.txt --verbose=1
+/usr/local/bin/gcc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_56bc7.dir/CheckFunctionExists.c.o  -o cmTC_56bc7  /usr/lib64/libX11.so /usr/lib64/libXext.so 
+gmake[1]: Leaving directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/paulw/efficiency/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_21400/fast && /bin/gmake  -f CMakeFiles/cmTC_21400.dir/build.make CMakeFiles/cmTC_21400.dir/build
+gmake[1]: Entering directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21400.dir/CheckFunctionExists.c.o
+/usr/local/bin/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_21400.dir/CheckFunctionExists.c.o   -c /usr/share/cmake3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_21400
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_21400.dir/link.txt --verbose=1
+/usr/local/bin/gcc  -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_21400.dir/CheckFunctionExists.c.o  -o cmTC_21400 
+gmake[1]: Leaving directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/paulw/efficiency/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_6f38d/fast && /bin/gmake  -f CMakeFiles/cmTC_6f38d.dir/build.make CMakeFiles/cmTC_6f38d.dir/build
+gmake[1]: Entering directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f38d.dir/CheckFunctionExists.c.o
+/usr/local/bin/gcc   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_6f38d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6f38d
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_6f38d.dir/link.txt --verbose=1
+/usr/local/bin/gcc  -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_6f38d.dir/CheckFunctionExists.c.o  -o cmTC_6f38d 
+gmake[1]: Leaving directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/paulw/efficiency/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_059f3/fast && /bin/gmake  -f CMakeFiles/cmTC_059f3.dir/build.make CMakeFiles/cmTC_059f3.dir/build
+gmake[1]: Entering directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_059f3.dir/CheckFunctionExists.c.o
+/usr/local/bin/gcc   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_059f3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_059f3
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_059f3.dir/link.txt --verbose=1
+/usr/local/bin/gcc  -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_059f3.dir/CheckFunctionExists.c.o  -o cmTC_059f3 
+gmake[1]: Leaving directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/paulw/efficiency/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_c1d37/fast && /bin/gmake  -f CMakeFiles/cmTC_c1d37.dir/build.make CMakeFiles/cmTC_c1d37.dir/build
+gmake[1]: Entering directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c1d37.dir/CheckFunctionExists.c.o
+/usr/local/bin/gcc   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_c1d37.dir/CheckFunctionExists.c.o   -c /usr/share/cmake3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c1d37
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_c1d37.dir/link.txt --verbose=1
+/usr/local/bin/gcc  -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_c1d37.dir/CheckFunctionExists.c.o  -o cmTC_c1d37 
+gmake[1]: Leaving directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/paulw/efficiency/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/bin/gmake cmTC_3ee87/fast && /bin/gmake  -f CMakeFiles/cmTC_3ee87.dir/build.make CMakeFiles/cmTC_3ee87.dir/build
+gmake[1]: Entering directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ee87.dir/CheckFunctionExists.c.o
+/usr/local/bin/gcc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_3ee87.dir/CheckFunctionExists.c.o   -c /usr/share/cmake3/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3ee87
+/usr/bin/cmake3 -E cmake_link_script CMakeFiles/cmTC_3ee87.dir/link.txt --verbose=1
+/usr/local/bin/gcc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_3ee87.dir/CheckFunctionExists.c.o  -o cmTC_3ee87  -lICE 
+gmake[1]: Leaving directory `/home/paulw/efficiency/build/CMakeFiles/CMakeTmp'
+
+
+

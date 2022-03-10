@@ -1,0 +1,10 @@
+/gps/particle ion
+/gps/ion 77 192 0 0
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/radius 0.2 mm
+/gps/pos/halfz 1.75 mm
+/gps/pos/centre 0. 0. 0.
+/gps/ang/type iso
+
+/run/beamOn 10
